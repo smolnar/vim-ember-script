@@ -12,6 +12,8 @@ setlocal smarttab
 setlocal expandtab
 setlocal smartindent
 
-setlocal formatoptions-=t formatoptions+=croqlj
+" TODO (smolnar) add j option when available
+" setlocal formatoptions-=t formatoptions+=croqlj
+setlocal formatoptions-=t formatoptions+=croql
 setlocal comments=:#
 setlocal commentstring=#\ %s
